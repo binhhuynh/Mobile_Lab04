@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class TikiActivity extends AppCompatActivity implements AboveFragment.Listener{
+public class TikiActivityA extends AppCompatActivity implements AboveFragment.Listener{
     private BelowFragment belowFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tiki);
+        setContentView(R.layout.activity_tiki_a);
 
         belowFragment = (BelowFragment) getSupportFragmentManager().findFragmentById(R.id.fragment_below);
     }
